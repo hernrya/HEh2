@@ -8,4 +8,20 @@ Unfortunately, much of this code is not plug and play. Several scripts are geare
 
 Data:
 
-WGS Genotype data are available from 1000 Genomes Project
+WGS Genotype data in VCF format are available from 1000 Genomes Project: http://www.internationalgenome.org/data#download
+
+RNA seq data are available in two ways:
+1) Summary FPKM across genes and individuals available in this repo: expressions.genes.eur.matrix.eqtl.txt.gz
+2) Directly from GEUVADIS: https://www.ebi.ac.uk/Tools/geuvadis-das/
+
+Subject IDs:
+Unrelated individuals and population labels and sex listed in: 20140610_samples_to_analyse_v10.txt.gz
+
+
+Scripts:
+
+1) Process VCF to 012 format and produce variant position list for each gene can be run in Perl using: getGene012.pl
+
+2) Run H-E on 012/pos/expression data/Covariats: HEh2.R
+
+3) Plot data in R: finalFigures_NatGen4.R
