@@ -6,6 +6,8 @@ Hernandez RD, Uricchio LH, Hartman K, Ye C, Dahl A, Zaitlen N. Ultra-rare varian
 
 Unfortunately, much of this code is not plug and play. Several scripts are geared toward a particular data structure with hard coded directories. However, the code is being made available to make it clear exactly what was done to produce the results. Any questions should be addressed to Ryan Hernandez <ryan.hernandez@me.com>. 
 
+Note that we have compared our implementation of Haseman-Elston regression with the implementation in GCTA, and found them to report estimates that are identical within 8 decimal points (likely owing to differences in single vs double point precision). Since GCTA is widely used, we recommend using that package, but make our code available to ensure openness of our research methods.
+
 Data:
 
 WGS Genotype data in VCF format are available from 1000 Genomes Project: http://www.internationalgenome.org/data#download
