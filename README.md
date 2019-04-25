@@ -24,4 +24,6 @@ Scripts:
 
 2) Run H-E on 012/pos/expression data/Covariats: HEh2.R
 
-3) Plot data in R: finalFigures_NatGen4.R
+3) Functions for running AI implementation of REML: reml_func.R
+
+4) Plot data in R: finalFigures_NatGen4.R
