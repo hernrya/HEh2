@@ -24,6 +24,9 @@ Scripts:
 
 2) Run H-E on 012/pos/expression data/Covariats: HEh2.R
 
+   To run this code, use command line R:
+   Rscript HEh2.R help
+
 3) Functions for running AI implementation of REML: reml_func.R
 
 4) Plot data in R: finalFigures_NatGen4.R
